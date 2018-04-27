@@ -7,6 +7,10 @@ class Dog
     @name
   end
 
+  def bark
+    @bark = "woof"
+  end
+
 end
 
 fido = Dog.new
