@@ -7,12 +7,8 @@ class Dog
     @name
   end
 
-  def bark=(bark)
-    @bark = bark
-  end
-
-  def bark
-    @bark
+  def initialize(bark = "woof")
+    @bark = "woof"
   end
 
 end
