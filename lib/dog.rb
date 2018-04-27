@@ -14,7 +14,7 @@ class Dog
   def bark
     @bark
   end
-  
+
 end
 
 fido = Dog.new
